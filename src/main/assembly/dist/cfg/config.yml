@@ -1,9 +1,3 @@
-#
-# Module configuration file
-#
-# Please, modify the configuration below to match your environment. Also, delete and/or modify
-# this description.
-
 server:
   applicationContextPath: /
   adminContextPath: /
@@ -15,3 +9,5 @@ server:
     - type: http
       # Replace with port number unique for this service
       port: 20001
+
+# TODO: add config for a PostGreSQL database
